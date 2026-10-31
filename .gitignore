@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.bak
+*.bak.*
+
+# Keep the public portfolio focused on source and reproducible result summaries.
+data/
+data_source/
+outputs/
+
+# Ignore generated plots and experiment CSVs; retain the reviewed reports and
+# compact machine-readable summaries for the public project page.
+results/*
+!results/MACL_HYPOTHESIS_CONCLUSION.md
+!results/CONTROLLED_MACL_STUDY.md
+!results/MULTIAGENT_SCALING_STUDY.md
+!results/macl_hypothesis_analysis.json
+!results/controlled_macl_study.json
+!results/multiagent_scaling_study.json
